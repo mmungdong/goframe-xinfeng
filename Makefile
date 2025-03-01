@@ -33,6 +33,10 @@ dao: cli.install
 service: cli.install
 	@gf gen service
 
+.PHONY: run
+run:
+	go run main.go
+
 # Build image, deploy image and yaml to current kubectl environment and make port forward to local machine.
 .PHONY: start
 start:

@@ -3,7 +3,7 @@ package model
 type RotationCreateUpdateBase struct {
 	PicUrl string
 	Link   string
-	Sort   int
+	Sort   uint
 }
 
 type RotationCreateInput struct {
@@ -11,5 +11,5 @@ type RotationCreateInput struct {
 }
 
 type RotationCreateOutput struct {
-	RotationId int `json:"rotation_id"`
+	RotationId uint `json:"rotation_id"`
 }

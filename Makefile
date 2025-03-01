@@ -1,7 +1,7 @@
 ROOT_DIR    = $(shell pwd)
 NAMESPACE   = "default"
-DEPLOY_NAME = "focus-single"
-DOCKER_NAME = "focus-single"
+DEPLOY_NAME = "goframe-xinfeng"
+DOCKER_NAME = "goframe-xinfeng"
 
 # Install/Update to the latest CLI tool.
 .PHONY: cli

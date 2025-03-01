@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: focus-single
+  name: goframe-xinfeng
   labels:
-    app: focus-single
+    app: goframe-xinfeng
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: focus-single
+      app: goframe-xinfeng
   template:
     metadata:
       labels:
-        app: focus-single
+        app: goframe-xinfeng
     spec:
       containers:
         - name : main
-          image: focus-single
+          image: goframe-xinfeng
           imagePullPolicy: Always
 

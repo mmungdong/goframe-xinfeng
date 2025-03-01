@@ -1,0 +1,68 @@
+2025-03-01 17:36:03.739 [ERRO] {c8902bbb2ba4281825f554336b6199f1} [ 29 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:36:03.742 [ERRO] {c8902bbb2ba4281825f554336b6199f1} [  3 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:36:03.747 [ERRO] {c8902bbb2ba4281825f554336b6199f1} [  4 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:36:03.752 [ERRO] {c8902bbb2ba4281825f554336b6199f1} [  4 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:38:26.434 [ERRO] {3062e6f54ca4281826f55433f06965eb} [  6 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:38:26.441 [ERRO] {3062e6f54ca4281826f55433f06965eb} [  4 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:38:26.447 [ERRO] {3062e6f54ca4281826f55433f06965eb} [  4 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:38:26.455 [ERRO] {3062e6f54ca4281826f55433f06965eb} [  6 ms] [default] [gf_shop] [rows:0  ] SHOW FULL COLUMNS FROM `rotation_info`
+Error: Error 1045 (28000): Access denied for user 'mysql'@'172.17.0.1' (using password: YES) 
+Stack:
+1.  goframe-xinfeng/internal/logic/rotation.(*sRotation).Create
+    E:/code/github/goframe-xinfeng/internal/logic/rotation/rotation.go:30
+2.  goframe-xinfeng/internal/controller.(*cRotation).Create
+    E:/code/github/goframe-xinfeng/internal/controller/rotation.go:15
+
+2025-03-01 17:46:30.768 [DEBU] {300252babda42818e0319c73bfd8e790} [  8 ms] [default] [gf_shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2025-03-01 17:46:30.779 [DEBU] {300252babda42818e0319c73bfd8e790} [ 11 ms] [default] [gf_shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://th.bing.com/th/id/OIP.euvEsfNYVZCqBnQIjCURHwHaD0?w=309&h=179&c=7&r=0&o=5&pid=1.7','https://www.bilibili.com/video/BV1qo9uYPEyi/?spm_id_from=333.1007.tianma.1-1-1.click',2,'2025-03-01 17:46:30','2025-03-01 17:46:30') 
+2025-03-01 17:47:29.044 [DEBU] {d0ae104ccba42818ccd4ce32ed89c33f} [  4 ms] [default] [gf_shop] [rows:7  ] SHOW FULL COLUMNS FROM `rotation_info`
+2025-03-01 17:47:29.053 [DEBU] {d0ae104ccba42818ccd4ce32ed89c33f} [  9 ms] [default] [gf_shop] [rows:1  ] INSERT INTO `rotation_info`(`pic_url`,`link`,`sort`,`created_at`,`updated_at`) VALUES('https://th.bing.com/th/id/OIP.euvEsfNYVZCqBnQIjCURHwHaD0?w=309&h=179&c=7&r=0&o=5&pid=1.7','https://www.bilibili.com/video/BV1qo9uYPEyi/?spm_id_from=333.1007.tianma.1-1-1.click',2,'2025-03-01 17:47:29','2025-03-01 17:47:29') 

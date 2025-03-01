@@ -2,16 +2,16 @@
 gfcli:
   # 工具编译配置
   build:
-    name:     "xinfeng-shop"
-    arch:     "amd64"
-    system:   "linux,darwin,windows"
-    mod:      ""
-    cgo:      0
+    name: "xinfeng-shop" # 编译构建的二进制文件名
+    arch: "amd64"
+    system: "linux,darwin,windows"
+    mod: ""
+    cgo: 0
 
   # dao生成
   gen:
     dao:
-      - link:            "mysql:root:123456@tcp(127.0.0.1:3306)/gf_shop"
-        removePrefix:    "gf_"
-        descriptionTag:  true
-        noModelComment:  true
+      - link: "mysql:root:123456@tcp(127.0.0.1:3306)/gf_shop" # 对应自己的mysql数据库地址
+        removePrefix: "gf_"
+        descriptionTag: true
+        noModelComment: true

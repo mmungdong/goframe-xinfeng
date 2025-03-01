@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: focus-single
+  name: goframe-xinfeng
 spec:
   ports:
   - port: 80
     protocol: TCP
     targetPort: 8000
   selector:
-    app: focus-single
+    app: goframe-xinfeng
 

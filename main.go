@@ -3,13 +3,11 @@ package main
 import (
 	_ "github.com/gogf/gf/contrib/drivers/mysql/v2"
 
-	_ "github.com/gogf/gf/contrib/drivers/sqlite/v2"
+	_ "goframe-xinfeng/internal/packed"
 
-	_ "focus-single/internal/packed"
+	_ "goframe-xinfeng/internal/logic"
 
-	_ "focus-single/internal/logic"
-
-	"focus-single/internal/cmd"
+	"goframe-xinfeng/internal/cmd"
 
 	"github.com/gogf/gf/v2/os/gctx"
 )

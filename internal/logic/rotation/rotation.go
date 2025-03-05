@@ -9,6 +9,7 @@ import (
 	"goframe-xinfeng/internal/model"
 
 	"github.com/gogf/gf/frame/g"
+	"github.com/gogf/gf/v2/database/gdb"
 )
 
 type sRotation struct{}
@@ -43,4 +44,16 @@ func (s *sRotation) Delete(ctx context.Context, id uint) error {
 	// }).Unscoped().Delete()
 
 	return err
+}
+
+func (s *sRotation) Update(ctx context.Context, in model.RotationUpdateInput) error {
+	return dao.RotationInfo.Transaction(ctx, func(ctx context.Context, tx gdb.TX) error {
+		_, err := dao.RotationInfo.
+			Ctx(ctx).
+			Data(in).
+			FieldsEx(dao.RotationInfo.Columns().Id). // goframe的字段过滤， 排除id字段
+			Where(dao.RotationInfo.Columns().Id, in.Id).
+			Update()
+		return err
+	})
 }

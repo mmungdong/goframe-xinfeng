@@ -19,3 +19,13 @@ type RotationDeleteReq struct {
 }
 
 type RotationDeleteRes struct{}
+
+type RotationUpdateReq struct {
+	g.Meta `path:"/backend/rotation/update/{Id}" method:"post" tags:"内容" summary:"更新轮播图"`
+	Id     uint   `json:"id" v:"required#轮播图ID不能为空" dc:"轮播图ID"`
+	PicUrl string `json:"pic_url" v:"required#轮播图图片链接不能为空" dc:"轮播图图片链接"`
+	Link   string `json:"link" v:"required#轮播图跳转链接不能为空" dc:"跳转链接"`
+	Sort   uint   `json:"sort" dc:"排序"`
+}
+
+type RotationUpdateRes struct{}
